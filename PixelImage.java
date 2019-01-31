@@ -134,18 +134,7 @@ public class PixelImage
 
 			}
 		}
-//		//come back to this!
-//		for (int row = 0;row < half;row++) {
-//			for (int col = 0;col < data[row].length;col++) {
-//				newData_Out[data.length - row][col] = data[data.length - row][col];
-//				newData_Out[row][col] = data[row][col];
-//			}
-//		}
-//		for (int row = half;row < data.length - half;row++) {
-//			for (int col = 0;col < half;col++) {
-//				newData_Out[row][data.length - col] = data[row][data.length - col];
-//				newData_Out[row][col] = data[row][col];
-//			}
+
 		}
 
 		return newData_Out;
